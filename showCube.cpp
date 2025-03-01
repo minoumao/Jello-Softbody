@@ -7,6 +7,7 @@
 
 #include "jello.h"
 #include "showCube.h"
+#include <vector>
 
 int pointMap(int side, int i, int j)
 {
@@ -378,4 +379,160 @@ void showGroundPlane()
         i++;
     }
 
+}
+
+
+void showInclinePlane(struct world* jello)
+{
+    // define 8 points
+    // front surface
+    double _frontLeft;
+    double _frontRight;
+
+    // back surface
+    double _backLeft;
+    double _backRight;
+
+    // up surface
+    double _upFront;
+    double _upBack;
+
+    // bottom surface
+    double _bottomFront;
+    double _bottomBack;
+
+    // point storage
+    point _points[8];
+    bool _intersectionPoints[8];
+
+    // Initalize
+    for (int i = 0; i < 8; i++)
+    {
+        _intersectionPoints[i] = false;
+    }
+
+    // front left
+    _frontLeft = -((jello->a * (-2.0) + jello->c * (-2.0) + jello->d) / jello->b);
+    _points[0].x = -2;
+    _points[0].z = -2;
+    if ((_frontLeft >= -2 && _frontLeft <= 2))
+    {
+        _intersectionPoints[0] = true;
+        _points[0].y = _frontLeft;
+    }
+
+    // front right
+    _frontRight = -((jello->a * (2.0) + jello->c * (-2.0) + jello->d) / jello->b);
+    _points[1].x = 2;
+    _points[1].z = -2;
+    if ((_frontRight >= -2 && _frontRight <= 2))
+    {
+        _intersectionPoints[1] = true;
+        _points[1].y = _frontRight;
+    }
+
+    // back left
+    _backLeft = -((jello->a * (-2.0) + jello->c * (2.0) + jello->d) / jello->b);
+    _points[2].x = -2;
+    _points[2].z = 2;
+    if ((_backLeft >= -2 && _backLeft <= 2))
+    {
+        _intersectionPoints[2] = true;
+        _points[2].y = _backLeft;
+    }
+
+    // back right
+    _backRight = -((jello->a * (2.0) + jello->c * (2.0) + jello->d) / jello->b);
+    _points[3].x = 2;
+    _points[3].z = 2;
+    if ((_backRight >= -2 && _backRight <= 2))
+    {
+        _intersectionPoints[3] = true;
+        _points[3].y = _backRight;
+    }
+
+    // up front
+    _upFront = -((jello->b * (2.0) + jello->c * (-2.0) + jello->d) / jello->a);
+    _points[4].y = 2;
+    _points[4].z = -2;
+    if ((_upFront > -2 && _upFront < 2))
+    {
+        _intersectionPoints[4] = true;
+        _points[4].x = _upFront;
+    }
+
+    // up back
+    _upBack = -((jello->b * (2.0) + jello->c * (2.0) + jello->d) / jello->a);
+    _points[5].y = 2;
+    _points[5].z = 2;
+    if ((_upBack > -2 && _upBack < 2))
+    {
+        _intersectionPoints[5] = true;
+        _points[5].x = _upBack;
+    }
+
+    // bottom front
+    _bottomFront = -((jello->b * (-2.0) + jello->c * (-2.0) + jello->d) / jello->a);
+    _points[6].y = -2;
+    _points[6].z = -2;
+    if ((_bottomFront > -2 && _bottomFront < 2))
+    {
+        _intersectionPoints[6] = true;
+        _points[6].x = _bottomFront;
+    }
+
+    // bottom back
+    _bottomBack = -((jello->b * (-2.0) + jello->c * (2.0) + jello->d) / jello->a);
+    _points[7].y = -2;
+    _points[7].z = 2;
+    if ((_bottomBack > -2 && _bottomBack < 2))
+    {
+        _intersectionPoints[7] = true;
+        _points[7].x = _bottomBack;
+    }
+
+    // gather points
+    int pointCount = 0;
+    std::vector<point> drawPoint;
+    for (int i = 0; i < 8; i++)
+    {
+        if (_intersectionPoints[i])
+        {
+            pointCount++;
+            drawPoint.push_back(_points[i]);
+        }
+    }
+
+    // draw triangle
+    if (pointCount == 3)
+    {
+        glBegin(GL_POLYGON);
+
+        glColor4f(0.2, 0.2, 0.2, 1);
+        glVertex3f(drawPoint[2].x, drawPoint[2].y, drawPoint[2].z);
+
+        glColor4f(0.2, 0.2, 0.2, 1);
+        glVertex3f(drawPoint[1].x, drawPoint[1].y, drawPoint[1].z);
+
+        glColor4f(0.2, 0.2, 0.2, 1);
+        glVertex3f(drawPoint[0].x, drawPoint[0].y, drawPoint[0].z);
+
+        glEnd();
+    }
+
+    // draw quad
+    if(pointCount == 4)
+    {
+        glBegin(GL_QUADS);
+
+        glColor4f(0.2, 0.2, 0.2, 1);
+        glVertex3f(_points[3].x, _backRight, _points[3].z);
+        glVertex3f(_points[0].x, _frontLeft, _points[0].z);
+
+        glColor4f(0.2, 0.2, 0.2, 1);
+        glVertex3f(_points[1].x, _frontRight, _points[1].z);
+        glVertex3f(_points[2].x, _backLeft, _points[2].z);
+
+        glEnd();
+    }
 }

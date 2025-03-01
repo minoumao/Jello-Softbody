@@ -146,6 +146,14 @@
     <ClCompile Include="ppm.cpp" />
     <ClCompile Include="showCube.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="world\gravity.w" />
+    <None Include="world\inclinedPlane.w" />
+    <None Include="world\jello.w" />
+    <None Include="world\moveLeft.w" />
+    <None Include="world\rotate.w" />
+    <None Include="world\skewedCorner.w" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

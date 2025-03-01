@@ -1,3 +1,196 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (C:\Users\violi\OneDrive\Desktop\CSCI-520\starter-csci520-assign1-v2\starter-csci520-assign1\\Bin\Debug\) contains files shared from another project (createWorld.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  physics.cpp
-  jello.vcxproj -> C:\Users\violi\OneDrive\Desktop\CSCI-520\starter-csci520-assign1-v2\starter-csci520-assign1\Bin\Debug\jello.exe
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\\Bin\Debug\) contains files shared from another project (createWorld.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  jello.cpp
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(44,26): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(44,21): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(44,16): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(136,21): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(136,29): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(136,37): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(137,21): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(137,28): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(137,36): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(138,21): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(138,28): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(138,35): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(139,21): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(139,29): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(139,36): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(140,21): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(140,29): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(140,37): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(141,21): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(141,28): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(141,36): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(142,21): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(142,28): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(142,35): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(143,21): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(143,29): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(143,36): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(147,36): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(148,21): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(148,26): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(148,31): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(148,36): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(149,36): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(150,36): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\jello.cpp(212,7): warning C4101: 'i': unreferenced local variable
+  showCube.cpp
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(92,81): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(92,61): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(92,41): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(104,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(105,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(106,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(107,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(108,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(109,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(116,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(117,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(118,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(119,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(120,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(121,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(122,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(123,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(124,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(125,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(126,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(127,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(129,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(130,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(131,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(132,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(133,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(134,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(135,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(136,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(143,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(144,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(145,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(146,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(147,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(148,13): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(219,30): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(218,70): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(218,39): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(220,74): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(220,56): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(220,38): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(222,32): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(221,75): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(221,41): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(223,80): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(223,60): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(223,40): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(238,21): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(238,17): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(238,13): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(245,16): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(246,16): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(250,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(251,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(257,16): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(258,16): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(262,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(263,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(269,19): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(270,19): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(274,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(275,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(281,18): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(282,18): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(286,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(287,20): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(307,37): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(307,32): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(307,27): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(314,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(314,24): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(315,33): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(315,26): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(316,31): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(316,26): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(319,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(319,24): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(320,29): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(320,24): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(321,33): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(321,26): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(326,31): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(326,26): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(327,33): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(327,26): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(328,31): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(328,26): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(331,31): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(331,26): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(332,33): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(332,26): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(333,33): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(333,26): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(351,37): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(351,32): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(351,27): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(356,31): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(356,26): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(357,29): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(357,24): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(358,27): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(358,24): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(361,31): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(361,26): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(362,33): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(362,26): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(363,29): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(363,24): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(368,31): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(368,26): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(369,33): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(369,26): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(370,31): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(370,26): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(373,31): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(373,26): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(374,33): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(374,26): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(375,33): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(375,26): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(511,29): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(511,24): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(511,19): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(512,64): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(512,48): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(512,32): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(514,29): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(514,24): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(514,19): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(515,64): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(515,48): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(515,32): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(517,29): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(517,24): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(517,19): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(518,64): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(518,48): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(518,32): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(528,29): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(528,24): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(528,19): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(529,56): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(529,34): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(529,30): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(530,56): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(530,34): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(530,30): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(532,29): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(532,24): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(532,19): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(533,57): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(533,34): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(533,30): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(534,55): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(534,34): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\showCube.cpp(534,30): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  Generating Code...
+  jello.vcxproj -> C:\Users\violi\OneDrive\Desktop\CSCI-520\ADION-HW1-V3\ADION-HW1-V2\Bin\Debug\jello.exe

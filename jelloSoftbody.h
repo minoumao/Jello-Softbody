@@ -626,6 +626,100 @@ public:
             pMAKE(_externalForce.x, _externalForce.y, _externalForce.z, a)
         }
     }
+
+    /// <summary>
+    /// Checks if a point is behind a given cube
+    /// </summary>
+    /// <param name="jello">: refrence object </param>
+    /// <param name="p">: point </param>
+    /// <param name="noCollision">: collison</param>
+    /// <param name="normal">: normal</param>
+    void checkInclinedCollision(world* jello, point& p, bool& noCollision, point& normal) {
+
+        if (jello->incPlanePresent == 0)
+        {
+            return;
+        }
+
+        double _point;
+        
+        // dot product
+        _point = jello->a * p.x + jello->b * p.y + jello->c * p.z + jello->d;
+
+        int _pointDirection = 0;
+        if (_point > 0) {
+            _pointDirection = 1;
+        }
+        else if (_point < 0) {
+            _pointDirection = -1;
+        }
+
+        pMAKE(jello->a, jello->b, jello->c, normal);
+        // dot product
+        _point = jello->a * normal.x + jello->b * normal.y + jello->c * normal.z + jello->d;
+
+        int _planeDirection = 0;
+        if (_point > 0) {
+            _planeDirection = 1;
+        }
+        else if (_point < 0) {
+            _planeDirection = -1;
+        }
+
+        noCollision = (_planeDirection * _pointDirection) == 1;
+    }
+
+    /// <summary>
+    /// Calculates a collsion force if a collision with the inclined plane is present
+    /// </summary>
+    /// <param name="jello">: refrence object </param>
+    /// <param name="i">: index </param>
+    /// <param name="j">: index </param>
+    /// <param name="k">: index </param>
+    /// <param name="noCollision">: if collision</param>
+    /// <param name="collisionNormal">: normal of collision</param>
+    /// <param name="noCollision">: acceleration</param>
+    void inclinedCollisionForce(world* jello, int i, int j, int k, const bool& noCollision, const point& collisionNormal, point& a) {
+        if (noCollision == true)
+            return;
+       
+        // D = (ax + by + cz + d) / sqrt(a*a + b*b + c*c)
+        
+        // distance vector
+        double distance;
+        distance = (jello->a * jello->p[i][j][k].x + jello->b * jello->p[i][j][k].y + jello->c * jello->p[i][j][k].z + jello->d);
+        distance = distance / sqrt(jello->a * jello->a + jello->b * jello->b + jello->c * jello->c);
+        
+        // normalized vector
+        point _normalizedNormal;
+        point _normal;
+        double _normalLength;
+
+        _normalLength = sqrt(collisionNormal.x * collisionNormal.x + collisionNormal.y * collisionNormal.y + collisionNormal.z * collisionNormal.z);
+        _normalizedNormal.x = (collisionNormal.x / _normalLength);
+        _normalizedNormal.y = (collisionNormal.y / _normalLength);
+        _normalizedNormal.z = (collisionNormal.z / _normalLength);
+        pMULTIPLY(_normalizedNormal, distance, _normalizedNormal);
+        
+        // Calculate the point on plane
+        point _pointPlane;
+        pDIFFERENCE(jello->p[i][j][k], _normalizedNormal, _pointPlane);
+        
+        // direction
+        _normal.x = (collisionNormal.x / _normalLength);
+        _normal.y = (collisionNormal.y / _normalLength);
+        _normal.z = (collisionNormal.z / _normalLength);
+
+        // calculate collision
+        point _force;
+        hookForceCollision(jello->p[i][j][k], _pointPlane, jello->kCollision, _normal, _force);
+        pSUM(_force, a, a);
+
+        point _velocityPlane;
+        pMAKE(0.0, 0.0, 0.0, _velocityPlane);
+        dampingForceCollision(jello->p[i][j][k], _pointPlane, jello->v[i][j][k], _velocityPlane, jello->dCollision, _normal, _force);
+        pSUM(_force, a, a);
+    }
 };
 
 #endif

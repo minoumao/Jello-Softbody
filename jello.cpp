@@ -12,6 +12,7 @@
 #include "showCube.h"
 #include "input.h"
 #include "physics.h"
+#include <string>
 
 // camera parameters
 double Theta = pi / 6;
@@ -182,7 +183,10 @@ void display()
   // show the bounding box
   showBoundingBox();
   showGroundPlane();
-
+  if (std::string(jello.fileName) == "world/inclinedPlane.w") 
+  {
+      showInclinePlane(&jello);
+  }
 
   // enable lighting
   glEnable(GL_LIGHTING);    
@@ -250,6 +254,7 @@ int main (int argc, char ** argv)
   }
 
   readWorld(argv[1],&jello);
+  jello.fileName = argv[1];
 
   glutInit(&argc,argv);
   

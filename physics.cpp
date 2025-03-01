@@ -8,6 +8,7 @@
 #include "jello.h"
 #include "physics.h"
 #include "jelloSoftbody.h"
+#include <string>
 
 JelloSoftbody jelloMassSpring;
 
@@ -16,6 +17,11 @@ JelloSoftbody jelloMassSpring;
    Returns result in array 'a'. */
 void computeAcceleration(struct world * jello, struct point a[8][8][8])
 {
+    point _planeNormal;
+    pMAKE(0.0, 0.0, 0.0, _planeNormal);
+
+
+
   /* for you to implement ... */
     for(int i = 0; i < 8; i++)
         for(int j = 0; j < 8; j++)
@@ -36,6 +42,12 @@ void computeAcceleration(struct world * jello, struct point a[8][8][8])
 
                 jelloMassSpring.collisionForce(jello, i, j, k, a[i][j][k]);
                 
+                // Inclined Plane Force
+                if (std::string(jello->fileName) == "world/inclinedPlane.w") {
+                    bool s;
+                    jelloMassSpring.checkInclinedCollision(jello, jello->p[i][j][k], s, _planeNormal);
+                    jelloMassSpring.inclinedCollisionForce(jello, i, j, k, s, _planeNormal, a[i][j][k]);
+                }
 
                 // Gather mass to prevent cube from imploding
                 pMULTIPLY(a[i][j][k], (1 / jello->mass), a[i][j][k]);

@@ -56,6 +56,7 @@ struct world
   struct point * forceField; // pointer to the array of values of the force field
   struct point p[8][8][8]; // position of the 512 control points
   struct point v[8][8][8]; // velocities of the 512 control points
+  char* fileName;
 };
 
 extern struct world jello;
